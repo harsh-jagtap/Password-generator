@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password generater</title>
-    <link rel="stylesheet" href="Password genrator.css"> 
+    <title>Harshree Development-Password generater</title>
+    <!-- navbar css -->
+    <link rel="stylesheet" href="navbar.css">
+    <!-- this page css -->
+    <link rel="stylesheet" href="Password genrator.css">
+    <!-- external link - extra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav id="navbar">
-        <div class="responsive">Harshree Development</div>
-        <hr id="hr">
-        <div id="logon" class="resp">
-            <img src="favicon2.PNG" alt="Harshreedevelopment" id="logo">
-        </div>
+        <div class="logoText">Harshree Development</div>
         <div id="category" class="resp">
             <ul class="ul">
-                <li class="navi"><a href="#">Home</a></li>  
-                <li class="navi"><a href="#">My Project</a></li>    
+                <li class="navi"><a href="#">Home</a></li>
+                <li class="navi"><a href="#">My Project</a></li>
                 <li class="navi"><a href="#">Contact me</a></li>
             </ul>
         </div>
     </nav>
-    <div id="heading"> 
+    <div id="heading">
         <h1>Password generator</h1>
         <p id=para>This page can give you an random number.You can use it for your password etc.</p>
     </div>
-    <div id="main"> 
-        <div id="tip">This is an perfect random number for you.</div> 
-        <div id="rnd">
-        </div>
-        <button onClick="window.location.reload();" id="btn">Refresh Page</button>
+    <div id="main">
+        <div id="tip">This is an perfect random number for you.</div>
+        <div id="rnd"></div>
+        <button onClick="window.location.reload();" id="btn">Next</button>
     </div>
 </body>
 <script src="Password generator.js"></script>
+
 </html>
