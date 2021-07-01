@@ -13,3 +13,10 @@
 .foot {
     margin: 0px 25px;
 }
+
+@media only screen and (max-width:721px) {
+    #footer {
+        position: relative;
+        bottom: 1px;
+    }
+}
